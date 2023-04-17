@@ -1,13 +1,13 @@
-.App {
+.App, .LandingPage {
   text-align: center;
 }
 
-.App-logo {
+.App-logo, .LandingPage-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
+.App-header, .LandingPage-header {
   background-color: #F5F5E2;
   min-height: 100vh;
   display: flex;
@@ -18,7 +18,6 @@
   color: black;
 }
 
-.App-link {
+.App-link, .LandingPage-link {
   color: #61dafb;
 }
-
