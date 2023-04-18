@@ -9,7 +9,7 @@ function LandingPage() {
       <header className="LandingPage-header">
         <img src={logo} className="LandingPage-logo" alt="logo" />
         <p>
-          Rent your flat or room to people you trust.
+          Rent your flat or room to people you know.
         </p>
       </header>
     </div>

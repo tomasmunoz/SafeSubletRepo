@@ -17,16 +17,6 @@ const mySchema = new mongoose.Schema({
 });
 
 const MyModel = mongoose.model('users', mySchema);
-const newDoc = new MyModel({ name: 'Jane Duo', age: 30 });
-
-MyModel.create(newDoc).then((result) => {
-  console.log(result);
-  mongoose.connection.close();
-})
-.catch((err) => {
-  console.error(err);
-  mongoose.connection.close();
-});
 
 app.use(cors());
 app.use(bodyParser.json())
@@ -36,10 +26,20 @@ app.listen(PORT, () => {
 });
 
 app.get('/api/users', (req, res) => {
-  const users = [
-    { id: 1, name: 'John' },
-    { id: 2, name: 'Jane' },
-    { id: 3, name: 'Bob' },
-  ];
-  res.json(users);
+  MyModel.find({}).then((users) => {
+    res.json(users);
+  })
+  .catch((err) => {
+    res.json(err);
+  });
+});
+
+app.post('/api/users', (req, res) => {
+  const newDoc = new MyModel({ name: 'Jane Duo', age: 30 });
+  MyModel.create(newDoc).then((result) => {
+    res.json(result);
+  })
+  .catch((err) => {
+    res.json(err);
+  });
 });
