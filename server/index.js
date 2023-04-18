@@ -9,8 +9,6 @@ const path = require('path');
 app.use(cors());
 app.use(bodyParser.json())
 
-app.use(express.static(path.join(__dirname, '../client/build')));
-
 app.get('/api/users', (req, res) => {
   const users = [
     { id: 1, name: 'John' },
@@ -18,10 +16,6 @@ app.get('/api/users', (req, res) => {
     { id: 3, name: 'Bob' },
   ];
   res.json(users);
-});
-
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
 });
 
 app.listen(PORT, () => {
