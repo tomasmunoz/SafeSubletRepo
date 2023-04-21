@@ -7,21 +7,21 @@
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -42,21 +42,21 @@
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -77,21 +77,21 @@
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -112,21 +112,21 @@
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "C:\\Users\\ignac\\SafeSubletRepo\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
+          "name": "C:\\Users\\ignac\\WebAppProjects\\SafeSubletRepo\\client\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -142,8 +142,7 @@
     }
   },
   "browserslist": [
-    "last 1 chrome version",
-    "last 1 firefox version",
-    "last 1 safari version"
+    ">0.25% and supports es6-module",
+    "not dead and supports es6-module"
   ]
 }
